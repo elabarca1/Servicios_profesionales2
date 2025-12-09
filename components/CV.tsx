@@ -39,7 +39,7 @@ export const CV: React.FC = () => {
                 <h3 className="text-lg font-bold text-brand-900 uppercase border-b border-slate-200 pb-2 mb-4">Formación Especializada</h3>
                 <ul className="space-y-4">
                   <li className="flex flex-col">
-                    <span className="font-bold text-slate-800">Máster en Programación Neuro Lingüística (PNL)</span>
+                    <span className="font-bold text-slate-800">Trainer y Máster en Programación Neuro Lingüística (PNL)</span>
                     <span className="text-slate-600 text-sm">Certificación Avanzada</span>
                   </li>
                   <li className="flex flex-col">
