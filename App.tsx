@@ -15,8 +15,8 @@ function App() {
       <Navbar />
       <main className="flex-grow">
         <Hero />
-        <Services />
         <About />
+        <Services />
         <CV />
         <Programs />
         <AppointmentForm />
