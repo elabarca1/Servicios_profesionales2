@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { DownloadIcon } from './Icons';
 
 export const CV: React.FC = () => {
@@ -11,7 +11,7 @@ export const CV: React.FC = () => {
           {/* Header of CV */}
           <div className="border-b-2 border-brand-900 pb-8 mb-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
             <div>
-              <h2 className="text-3xl font-serif font-bold text-brand-900 uppercase tracking-wide">Endys Alberto Labarca</h2>
+              <h2 className="text-3xl font-serif font-bold text-brand-900 uppercase tracking-wide">Endys Alberto Labarca Villalobos</h2>
               <p className="text-brand-accent font-semibold text-lg mt-1">Terapeuta Holístico Integral & Master Coach</p>
             </div>
             <div className="text-right hidden md:block">
@@ -100,7 +100,7 @@ export const CV: React.FC = () => {
           
           {/* Footer of CV */}
           <div className="mt-16 pt-8 border-t border-slate-200 text-center text-slate-500 text-sm">
-            <p>Documento generado digitalmente | Endys Alberto Labarca</p>
+            <p>Documento generado digitalmente | Endys Alberto Labarca Villalobos</p>
           </div>
         </div>
       </div>

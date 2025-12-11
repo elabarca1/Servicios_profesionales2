@@ -55,7 +55,7 @@ export const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-slate-800 mt-12 pt-8 text-center text-xs text-slate-500">
-          <p>&copy; {new Date().getFullYear()} Endys Alberto Labarca - Camino de Bienestar. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Endys Alberto Labarca Villalobos - Camino de Bienestar. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

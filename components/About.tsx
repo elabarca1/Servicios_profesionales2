@@ -82,13 +82,13 @@ export const About: React.FC = () => {
               <div className="absolute -inset-1 bg-gradient-to-r from-brand-accent to-brand-900 rounded-full opacity-30 blur-sm"></div>
               <img 
                 src="https://caminodebienestar.com/imagenes/EndysLabarca2.png" 
-                alt="Endys Alberto Labarca" 
+                alt="Endys Alberto Labarca Villalobos" 
                 className="relative w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-white shadow-xl"
               />
             </div>
             <div>
-              <h3 className="text-2xl text-slate-800 font-bold font-serif">Endys Alberto Labarca</h3>
-              <p className="text-brand-accent font-medium mt-1">CEO Camino de Bienestar & Gran Maestro Internacional</p>
+              <h3 className="text-2xl text-slate-800 font-bold font-serif">Endys Alberto Labarca Villalobos</h3>
+              <p className="text-brand-accent font-medium mt-1">Trainer Certificado en PNL & CEO de Camino de Bienestar</p>
             </div>
           </div>
           
