@@ -81,9 +81,9 @@ export const About: React.FC = () => {
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-brand-accent to-brand-900 rounded-full opacity-30 blur-sm"></div>
               <img 
-                src="https://caminodebienestar.com/imagenes/EndysLabarca2.png" 
+                src="https://caminodebienestar.com/imagenes/Perfil%20Endys%20AI%201.png" 
                 alt="Endys Alberto Labarca Villalobos" 
-                className="relative w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-white shadow-xl"
+                className="relative w-36 h-36 md:w-44 md:h-44 rounded-full object-cover object-[50%_25%] border-4 border-white shadow-xl"
               />
             </div>
             <div>
