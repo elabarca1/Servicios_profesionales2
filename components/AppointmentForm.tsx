@@ -4,9 +4,7 @@ const servicesOptions = [
   "PNL y Coaching Ontológico",
   "Terapias Holísticas Integrales",
   "Hipnosis Clínica",
-  "Tecnología Bio-Well",
-  "Certificación Coach de Bienestar",
-  "Certificación Practitioner en PNL"
+  "Tecnología Bio-Well"
 ];
 
 export const AppointmentForm: React.FC = () => {

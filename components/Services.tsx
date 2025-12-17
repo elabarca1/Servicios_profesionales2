@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrainIcon, LotusIcon, UserIcon, ActivityIcon, LeafIcon, AwardIcon } from './Icons';
+import { BrainIcon, LotusIcon, UserIcon, ActivityIcon } from './Icons';
 import { Service } from '../types';
 
 const servicesList: Service[] = [
@@ -22,16 +22,6 @@ const servicesList: Service[] = [
     title: "Tecnología Bio-Well",
     description: "Evaluación del estado energético y niveles de estrés mediante tecnología avanzada de visualización de descarga de gas (GDV), permitiendo un diagnóstico preciso del campo vital.",
     icon: <ActivityIcon className="w-8 h-8 text-white" />
-  },
-  {
-    title: "Certificación Coach de Bienestar",
-    description: "La Certificación Coach de Bienestar es una formación que capacita a un profesional para acompañar a otros en la construcción de una vida más saludable, equilibrada y consciente. Combina conocimientos de salud integral, psicología básica, cambio de hábitos, gestión emocional, mindfulness y herramientas de coaching.",
-    icon: <LeafIcon className="w-8 h-8 text-white" />
-  },
-  {
-    title: "Certificación Practitioner en PNL",
-    description: "Es un programa de formación avalado por estándares internacionales que capacita a los participantes en las técnicas esenciales de la Programación Neurolingüística, permitiéndoles aplicar la PNL en su vida personal, profesional o terapéutica.",
-    icon: <AwardIcon className="w-8 h-8 text-white" />
   }
 ];
 
@@ -45,11 +35,11 @@ export const Services: React.FC = () => {
           <h2 className="text-3xl font-serif font-bold text-brand-900 sm:text-4xl">Servicios Profesionales</h2>
           <div className="w-20 h-1 bg-brand-accent mx-auto mt-4 rounded-full"></div>
           <p className="mt-4 text-xl text-slate-600 max-w-2xl mx-auto">
-            Especializaciones diseñadas para integrar la salud física, mental y energética, además de formación profesional certificada.
+            Especializaciones diseñadas para integrar la salud física, mental y energética.
           </p>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2 max-w-5xl mx-auto">
           {servicesList.map((service, idx) => (
             <div key={idx} className="bg-white rounded-xl p-6 shadow-lg border border-slate-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group flex flex-col items-center text-center">
               <div className="w-16 h-16 bg-brand-900 rounded-lg flex items-center justify-center mb-6 shadow-md group-hover:bg-brand-accent transition-colors duration-300">
